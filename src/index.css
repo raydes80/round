@@ -78,6 +78,10 @@ input:focus {
   width: 100%;
 }
 
+.button:hover{
+  background-color: #2195f3b4;
+}
+
 .error {
   color: #b66f05c5;
   margin-top: 0;
