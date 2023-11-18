@@ -133,7 +133,7 @@ function App() {
             
           </button>
 
-          <div><a href='/'>Get support</a></div>
+          <div style={{textAlign: 'center', width: '100%'}}><a href='/'>Get support</a></div>
           {pwdError && <div className='error'>Incorrect pássword, Try again</div>}
 
       </form>
