@@ -132,6 +132,8 @@ function App() {
             }
             
           </button>
+
+          <div><a href='#'>Get support</a></div>
           {pwdError && <div className='error'>Incorrect pássword, Try again</div>}
 
       </form>

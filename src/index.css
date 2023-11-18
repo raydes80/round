@@ -30,6 +30,14 @@ input:focus {
   border: none
 }
 
+a {
+  text-decoration: none;
+  color: #2195f3b4;
+  font-size: .9rem;
+  margin-top: 10px;
+  text-align: center;
+}
+
 .general {
   width: 325px;
   box-sizing: border-box;
@@ -109,8 +117,6 @@ input:focus {
 .hidden {
   opacity: 0;
 }
-
-
 
 .timeout span {
   color: black;
