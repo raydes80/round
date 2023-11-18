@@ -119,7 +119,7 @@ function App() {
               </Grid>
           </Grid>
 
-          
+
           <button type='submit' className='button' disabled={loading}>
             {loading ?
               <BeatLoader
@@ -133,7 +133,7 @@ function App() {
             
           </button>
 
-          <div><a href='#'>Get support</a></div>
+          <div><a href='/'>Get support</a></div>
           {pwdError && <div className='error'>Incorrect pássword, Try again</div>}
 
       </form>
